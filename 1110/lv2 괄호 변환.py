@@ -16,6 +16,7 @@ def split_uv(p):
     u = p[:idx]
     v = p[idx:]
     return u, v
+
 def revers_paren(u):
     result = ''
     for i in u[1:-1]:
